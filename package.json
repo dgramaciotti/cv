@@ -1,0 +1,21 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/markdown-it": "^14.1.2",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "i": "^0.3.7",
+    "markdown-it": "^14.1.0",
+    "npm": "^11.4.2"
+  }
+}

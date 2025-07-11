@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Daniel Guedes - Senior Software Engineer with 7+ years experience in full-stack development, AI/ML integration, and cloud architecture. Specialized in React, Node.js, Python, and AWS.">
+    <meta name="keywords"
+        content="Senior Software Engineer, Full Stack Developer, React, Node.js, Python, AWS, AI/ML, RAG, JavaScript, TypeScript, Frontend, Backend, Cloud Architecture">
+    <meta name="author" content="Daniel Guedes">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <!-- <meta property="og:type" content="profile">
+    <meta property="og:url" content="https://yourwebsite.com/cv">
+    <meta property="og:title" content="Daniel Guedes - Senior Software Engineer">
+    <meta property="og:description" content="Experienced Senior Software Engineer specializing in full-stack development, AI/ML integration, and scalable cloud solutions. Available for new opportunities.">
+    <meta property="og:image" content="https://yourwebsite.com/profile-image.jpg"> -->
+
+    <!-- Twitter -->
+    <!-- <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://yourwebsite.com/cv">
+    <meta property="twitter:title" content="Daniel Guedes - Senior Software Engineer">
+    <meta property="twitter:description" content="Experienced Senior Software Engineer specializing in full-stack development, AI/ML integration, and scalable cloud solutions.">
+    <meta property="twitter:image" content="https://yourwebsite.com/profile-image.jpg"> -->
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://https://dgramaciotti.github.io/cv">
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Daniel Guedes",
+        "jobTitle": "Senior Software Engineer",
+        "description": "Senior Software Engineer with 7+ years experience in full-stack development, AI/ML integration, and cloud architecture",
+        "url": "https://https://dgramaciotti.github.io/cv",
+        "sameAs": [
+            "https://linkedin.com/in/drguedes",
+            "https://github.com/dgramaciotti",
+            "https://dgramaciotti.github.io/nanoblog/"
+        ],
+        "knowsAbout": [
+            "JavaScript", "TypeScript", "React", "Node.js", "Python", "AWS", "AI/ML", "RAG", "Full Stack Development", "Cloud Architecture"
+        ],
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Pontifícia Universidade Católica de Minas Gerais"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Contagem",
+            "addressRegion": "Minas Gerais",
+            "addressCountry": "Brazil"
+        }
+    }
+    </script>
+
+    <title>Daniel Guedes - Senior Software Engineer | CV</title>
+
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Typography */
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #34495e;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+        }
+
+        h3 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        h4 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #34495e;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+
+        /* Contact information */
+        .contact-info {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            border: 1px solid #e9ecef;
+        }
+
+        .contact-info p {
+            margin-bottom: 0.5rem;
+            text-align: left;
+        }
+
+        /* Links */
+        a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+
+        /* Lists */
+        ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Technical skills grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .skill-category {
+            background-color: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+        }
+
+        .skill-category h4 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .skill-category ul {
+            margin-left: 0;
+            list-style: none;
+        }
+
+        .skill-category li {
+            padding: 0.25rem 0;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .skill-category li:last-child {
+            border-bottom: none;
+        }
+
+        /* Experience section */
+        .experience-item {
+            background-color: #fdfdfd;
+            padding: 1.5rem;
+            border-left: 4px solid #3498db;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .experience-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 0.25rem;
+        }
+
+        .experience-company {
+            font-size: 1.1rem;
+            color: #34495e;
+            font-weight: 500;
+        }
+
+        .experience-date {
+            font-size: 0.95rem;
+            color: #7f8c8d;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        .experience-location {
+            font-size: 0.9rem;
+            color: #95a5a6;
+            font-style: italic;
+        }
+
+        /* Project highlights */
+        .project-item {
+            background-color: #f8f9fa;
+            padding: 1.25rem;
+            border-radius: 6px;
+            margin-bottom: 1.5rem;
+            border: 1px solid #e9ecef;
+        }
+
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        .project-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .project-date {
+            font-size: 0.9rem;
+            color: #7f8c8d;
+            font-weight: 500;
+        }
+
+        /* Education */
+        .education-item {
+            padding: 1rem 0;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .education-item:last-child {
+            border-bottom: none;
+        }
+
+        .education-degree {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .education-school {
+            color: #34495e;
+            font-weight: 500;
+        }
+
+        .education-date {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+
+        /* Languages and certifications */
+        .language-item,
+        .certification-item {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 0.5rem 1rem;
+            margin: 0.25rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        /* Divider */
+        hr {
+            border: none;
+            height: 2px;
+            background-color: #e9ecef;
+            margin: 2rem 0;
+        }
+
+        /* Print styles */
+        @media print {
+            body {
+                font-size: 12pt;
+                line-height: 1.4;
+                padding: 0;
+                max-width: none;
+            }
+
+            .contact-info {
+                background-color: transparent;
+                border: 1px solid #ccc;
+            }
+
+            .experience-item,
+            .project-item {
+                break-inside: avoid;
+                box-shadow: none;
+                border: 1px solid #ddd;
+            }
+
+            .skills-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            a {
+                color: #333;
+                text-decoration: none;
+            }
+
+            h1,
+            h2,
+            h3 {
+                page-break-after: avoid;
+            }
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .experience-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .experience-date {
+                margin-top: 0.5rem;
+            }
+
+            .project-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+
+        /* Accessibility */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+
+        /* Focus styles for keyboard navigation */
+        a:focus,
+        button:focus {
+            outline: 2px solid #3498db;
+            outline-offset: 2px;
+        }
+    </style>
+</head>
+
+<body>
+
+</body>
+
+</html>
