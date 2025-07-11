@@ -2,7 +2,6 @@
 ## Senior Software Engineer
 
 **Location:** Minas Gerais, Brazil  
-**Phone:** +55 31 9 8484 2589  
 **Email:** dgramaciotti@gmail.com  
 **LinkedIn:** [linkedin.com/in/drguedes](https://www.linkedin.com/in/drguedes)  
 **GitHub:** [github.com/dgramaciotti](https://github.com/dgramaciotti)  
@@ -13,7 +12,7 @@
 
 Senior Software Engineer with 7+ years of experience building scalable applications serving millions of users across diverse industries including finance, healthcare, automotive, and education. Proven track record of leading technical initiatives, mentoring development teams, and delivering high-impact solutions that drive business growth.
 
-Strong background in full-stack development, cloud architecture, and modern DevOps practices. Experienced in cross-team collaboration and implementing observability solutions that improved system reliability and performance.
+Strong background in full-stack web development, cloud architecture, and modern DevOps practices. Experienced in cross-team collaboration and implementing observability solutions that improved system reliability and performance.
 
 ---
 
@@ -21,13 +20,13 @@ Strong background in full-stack development, cloud architecture, and modern DevO
 
 ### Frontend Development
 - **Languages:** JavaScript/TypeScript (ES6+), HTML5, CSS3/SASS
-- **Frameworks:** React, Next.js, Angular 2+/AngularJS
-- **Tools:** Tailwind CSS, Material-UI, Storybook, Figma
-- **Specializations:** SEO optimization, accessibility (A11Y), responsive design
+- **Frameworks:** React, Next.js, Angular 9+/AngularJS
+- **Tools:** Tailwind, MUI, Storybook, Figma
+- **Specializations:** SEO optimization, accessibility (A11Y), responsive design, performance tuning
 
 ### Backend Development
 - **Languages:** Node.js, Python, Golang, Ruby (Rails), Lua, C
-- **Frameworks:** Express.js, Ruby on Rails, FastAPI
+- **Frameworks:** Express.js, RoR, FastAPI
 - **Architecture:** RESTful APIs, GraphQL, Microservices, Serverless, Monoliths
 - **AI/ML:** RAG pipelines, LLM integration, document/video processing
 
@@ -39,14 +38,14 @@ Strong background in full-stack development, cloud architecture, and modern DevO
 
 ### Cloud & Infrastructure
 - **Platforms:** AWS (Lambda, EC2, S3, RDS, SQS, CloudFront, Eventbridge, etc), GCP
-- **DevOps:** Docker, Kubernetes, Jenkins, GitHub Actions, Terraform, SonarQube
+- **DevOps:** Docker, Kubernetes, Jenkins, GitHub Actions, Terraform, Serverless framework, SonarQube
 - **Monitoring:** New Relic, CloudWatch
 - **Testing:** Jest, Cypress, Playwright, Ghost Inspector, pytest
 
 ### Development Practices
 - **Methodologies:** Agile, Scrum, Kanban, TDD, BDD, Event-Driven Architecture
 - **Tools:** Git, Jira, Confluence, Slack
-- **Observability:** Telemetry implementation, metrics gathering, alerting systems, webhooks
+- **Observability:** OTel implementation, metrics gathering, alerting systems, webhooks
 
 ---
 
